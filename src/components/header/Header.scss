@@ -1,0 +1,42 @@
+@import '../../scss/variables';
+@import '../../scss/mixins';
+
+
+
+.header{
+    text-align: center;
+    margin-top: 2rem;
+    padding: 0.5rem;
+
+    h1{
+        font-size: 2.3rem;
+        font-family: monospace;
+        margin-bottom: 1rem;
+        // color:$cardNavBgColor;
+        
+    }
+
+    .btnDiv{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    
+        
+        button{
+            border: none;
+            padding: 1rem;
+            border-radius: 1rem;
+            cursor: pointer;
+            text-transform: uppercase;
+            &:hover{
+                background-color: $btnHoverColor;
+                transition: all 0.5s;
+            }
+            &:active{
+                transform: scale(0.9);
+            }
+        }
+    }
+}
