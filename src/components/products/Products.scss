@@ -1,0 +1,32 @@
+@import "../../scss/variables";
+@import "../../scss/mixins";
+
+.product-list{
+
+    margin: 1rem;
+    display: flex;
+    flex:wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+    
+
+    .card{
+        width: 350px;
+        height: $cardHeight;
+
+
+        .price{
+
+        }
+        
+        img{
+            width: 100%;
+            height: $cardHeight;
+        }
+        &-over{
+
+        }
+    }
+
+}
